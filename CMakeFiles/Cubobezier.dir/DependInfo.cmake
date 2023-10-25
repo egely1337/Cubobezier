@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/egely1337/cubobezier/src/Camera/Camera.cpp" "CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o" "gcc" "CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o.d"
   "/home/egely1337/cubobezier/src/File/File.cpp" "CMakeFiles/Cubobezier.dir/src/File/File.cpp.o" "gcc" "CMakeFiles/Cubobezier.dir/src/File/File.cpp.o.d"
   "/home/egely1337/cubobezier/src/ObjLoader/objloader.cpp" "CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o" "gcc" "CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o.d"
   "/home/egely1337/cubobezier/src/Object/Object.cpp" "CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o" "gcc" "CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o.d"

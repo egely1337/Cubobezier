@@ -1,8 +1,28 @@
 [
 {
   "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o -c /home/egely1337/cubobezier/src/Camera/Camera.cpp",
+  "file": "/home/egely1337/cubobezier/src/Camera/Camera.cpp"
+},
+{
+  "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/File/File.cpp.o -c /home/egely1337/cubobezier/src/File/File.cpp",
+  "file": "/home/egely1337/cubobezier/src/File/File.cpp"
+},
+{
+  "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o -c /home/egely1337/cubobezier/src/ObjLoader/objloader.cpp",
+  "file": "/home/egely1337/cubobezier/src/ObjLoader/objloader.cpp"
+},
+{
+  "directory": "/home/egely1337/cubobezier/build",
   "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o -c /home/egely1337/cubobezier/src/Object/Object.cpp",
   "file": "/home/egely1337/cubobezier/src/Object/Object.cpp"
+},
+{
+  "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o -c /home/egely1337/cubobezier/src/Shader/Shader.cpp",
+  "file": "/home/egely1337/cubobezier/src/Shader/Shader.cpp"
 },
 {
   "directory": "/home/egely1337/cubobezier/build",

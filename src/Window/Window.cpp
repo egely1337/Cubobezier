@@ -1,16 +1,17 @@
 #include <Window/Window.hpp>
 
 
-Window::Window(const char* WINDOW_NAME) : m_cWindowName(WINDOW_NAME){};
+Window::Window(const char* WINDOW_NAME, const int width, const int height) : m_cWindowName(WINDOW_NAME),
+m_iWindowHeight(height),
+m_iWindowWidth(width)
+{
+    // Not Implemented
+};
 
 // Purpose: Create a GLFW Window
 // Author: @egely1337
 // Date: 10/23/2023
 void Window::CreateWindow(void) {
-    // Init GLEW
-    if(!glewInit()) {
-        fprintf(stderr, "Window::CreateWindow() glew init failed.\n\r");
-    }
 
     // Init GLFW 
     if(!glfwInit()) {
@@ -18,29 +19,30 @@ void Window::CreateWindow(void) {
     }
 
     // Create GLFWWindow and make it m_glfwWindow
-    m_glfwWindow = glfwCreateWindow(
-        m_iWindowWidth, m_iWindowHeight,
-        m_cWindowName,
+    this->m_glfwWindow = glfwCreateWindow(
+        this->m_iWindowWidth, 
+        this->m_iWindowHeight,
+        this->m_cWindowName,
         0, 0
     );
 
     // Return a error message if window creation is failed.
-    if(m_glfwWindow == nullptr) {
+    if(this->m_glfwWindow == nullptr) {
         fprintf(stderr, "Window::CreateWindow(void) failed.\n\r");
     }
 
     // Make m_glfwWindow as context renderer.
-    glfwMakeContextCurrent(m_glfwWindow);
+    glfwMakeContextCurrent(this->m_glfwWindow);
 
     // Change value m_bIsWindowOpen is m_glfwWindow is not nullptr (0)
-    m_bIsWindowOpen = (m_glfwWindow != nullptr) ? true : false;
+    this->m_bIsWindowOpen = (this->m_glfwWindow != nullptr) ? true : false;
 }
 
 // Purpose: Get m_bIsWindowOpen private variable.
 // Author: @egely1337
 // Date: 10/23/2023
 bool Window::IsWindowOpen() {
-    return m_bIsWindowOpen;
+    return this->m_bIsWindowOpen;
 }
 
 // Purpose: Returns should m_glfwWindow close.
@@ -48,7 +50,7 @@ bool Window::IsWindowOpen() {
 // Date: 10/23/2023
 bool Window::ShouldWindowClose()
 {
-    return glfwWindowShouldClose(m_glfwWindow);
+    return glfwWindowShouldClose(this->m_glfwWindow);
 }
 
 // Purpose: Returns should m_glfwWindow close.
@@ -59,7 +61,7 @@ bool Window::Update()
     glClear(GL_COLOR_BUFFER_BIT);
 
 
-    glfwSwapBuffers(m_glfwWindow);
+    glfwSwapBuffers(this->m_glfwWindow);
     glfwPollEvents();
     return true;
 }
@@ -68,5 +70,5 @@ bool Window::Update()
 // Author: @egely1337
 // Date: 10/23/2023
 GLFWwindow& Window::GetWindow() {
-    return *m_glfwWindow;
+    return *this->m_glfwWindow;
 }

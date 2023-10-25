@@ -124,6 +124,30 @@ Cubobezier/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/build
 .PHONY : Cubobezier/fast
 
+src/Camera/Camera.o: src/Camera/Camera.cpp.o
+.PHONY : src/Camera/Camera.o
+
+# target to build an object file
+src/Camera/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o
+.PHONY : src/Camera/Camera.cpp.o
+
+src/Camera/Camera.i: src/Camera/Camera.cpp.i
+.PHONY : src/Camera/Camera.i
+
+# target to preprocess a source file
+src/Camera/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.i
+.PHONY : src/Camera/Camera.cpp.i
+
+src/Camera/Camera.s: src/Camera/Camera.cpp.s
+.PHONY : src/Camera/Camera.s
+
+# target to generate assembly for a file
+src/Camera/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.s
+.PHONY : src/Camera/Camera.cpp.s
+
 src/File/File.o: src/File/File.cpp.o
 .PHONY : src/File/File.o
 
@@ -276,6 +300,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cubobezier"
+	@echo "... src/Camera/Camera.o"
+	@echo "... src/Camera/Camera.i"
+	@echo "... src/Camera/Camera.s"
 	@echo "... src/File/File.o"
 	@echo "... src/File/File.i"
 	@echo "... src/File/File.s"

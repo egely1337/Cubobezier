@@ -2,13 +2,13 @@
 #define WINDOW_HPP
 
 #include <iostream>
-#include <GL/glew.h>
+#include <GL/gl.h>
 #include <GLFW/glfw3.h>
 
 class Window
 {
 public:
-    Window(const char* WINDOW_NAME);
+    Window(const char* WINDOW_NAME, const int width, const int height);
 
     void CreateWindow(void);
 

@@ -1,5 +1,7 @@
-CMakeFiles/Cubobezier.dir/src/main.cpp.o: \
- /home/egely1337/cubobezier/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o: \
+ /home/egely1337/cubobezier/src/Camera/Camera.cpp \
+ /usr/include/stdc-predef.h \
+ /home/egely1337/cubobezier/./src/Camera/Camera.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -143,14 +145,9 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /home/egely1337/cubobezier/./src/Window/Window.hpp /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
- /usr/include/GLFW/glfw3.h \
- /home/egely1337/cubobezier/./src/Object/Object.hpp \
- /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/glm/glm.hpp \
+ /usr/include/glm/detail/_fixes.hpp /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -281,16 +278,8 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: \
  /usr/include/glm/packing.hpp /usr/include/glm/detail/func_packing.inl \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
- /usr/include/glm/detail/func_integer.inl \
- /home/egely1337/cubobezier/./src/ObjLoader/objloader.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /home/egely1337/cubobezier/./src/Shader/Shader.hpp \
- /home/egely1337/cubobezier/./src/File/File.hpp \
- /home/egely1337/cubobezier/./src/Camera/Camera.hpp \
- /usr/include/glm/ext.hpp /usr/include/glm/ext/matrix_clip_space.hpp \
+ /usr/include/glm/detail/func_integer.inl /usr/include/glm/ext.hpp \
+ /usr/include/glm/ext/matrix_clip_space.hpp \
  /usr/include/glm/ext/scalar_constants.hpp \
  /usr/include/glm/ext/scalar_constants.inl \
  /usr/include/glm/ext/matrix_clip_space.inl \
@@ -410,4 +399,7 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: \
  /usr/include/glm/gtc/reciprocal.inl /usr/include/glm/gtc/round.hpp \
  /usr/include/glm/gtc/round.inl /usr/include/glm/gtc/type_ptr.hpp \
  /usr/include/glm/gtc/type_ptr.inl /usr/include/glm/gtc/ulp.hpp \
- /usr/include/glm/gtc/ulp.inl
+ /usr/include/glm/gtc/ulp.inl /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
+ /usr/include/GLFW/glfw3.h \
+ /home/egely1337/cubobezier/src/Camera/Camera.hpp

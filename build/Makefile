@@ -124,6 +124,78 @@ Cubobezier/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/build
 .PHONY : Cubobezier/fast
 
+src/Camera/Camera.o: src/Camera/Camera.cpp.o
+.PHONY : src/Camera/Camera.o
+
+# target to build an object file
+src/Camera/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o
+.PHONY : src/Camera/Camera.cpp.o
+
+src/Camera/Camera.i: src/Camera/Camera.cpp.i
+.PHONY : src/Camera/Camera.i
+
+# target to preprocess a source file
+src/Camera/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.i
+.PHONY : src/Camera/Camera.cpp.i
+
+src/Camera/Camera.s: src/Camera/Camera.cpp.s
+.PHONY : src/Camera/Camera.s
+
+# target to generate assembly for a file
+src/Camera/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.s
+.PHONY : src/Camera/Camera.cpp.s
+
+src/File/File.o: src/File/File.cpp.o
+.PHONY : src/File/File.o
+
+# target to build an object file
+src/File/File.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/File/File.cpp.o
+.PHONY : src/File/File.cpp.o
+
+src/File/File.i: src/File/File.cpp.i
+.PHONY : src/File/File.i
+
+# target to preprocess a source file
+src/File/File.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/File/File.cpp.i
+.PHONY : src/File/File.cpp.i
+
+src/File/File.s: src/File/File.cpp.s
+.PHONY : src/File/File.s
+
+# target to generate assembly for a file
+src/File/File.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/File/File.cpp.s
+.PHONY : src/File/File.cpp.s
+
+src/ObjLoader/objloader.o: src/ObjLoader/objloader.cpp.o
+.PHONY : src/ObjLoader/objloader.o
+
+# target to build an object file
+src/ObjLoader/objloader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o
+.PHONY : src/ObjLoader/objloader.cpp.o
+
+src/ObjLoader/objloader.i: src/ObjLoader/objloader.cpp.i
+.PHONY : src/ObjLoader/objloader.i
+
+# target to preprocess a source file
+src/ObjLoader/objloader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.i
+.PHONY : src/ObjLoader/objloader.cpp.i
+
+src/ObjLoader/objloader.s: src/ObjLoader/objloader.cpp.s
+.PHONY : src/ObjLoader/objloader.s
+
+# target to generate assembly for a file
+src/ObjLoader/objloader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.s
+.PHONY : src/ObjLoader/objloader.cpp.s
+
 src/Object/Object.o: src/Object/Object.cpp.o
 .PHONY : src/Object/Object.o
 
@@ -147,6 +219,30 @@ src/Object/Object.s: src/Object/Object.cpp.s
 src/Object/Object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.s
 .PHONY : src/Object/Object.cpp.s
+
+src/Shader/Shader.o: src/Shader/Shader.cpp.o
+.PHONY : src/Shader/Shader.o
+
+# target to build an object file
+src/Shader/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o
+.PHONY : src/Shader/Shader.cpp.o
+
+src/Shader/Shader.i: src/Shader/Shader.cpp.i
+.PHONY : src/Shader/Shader.i
+
+# target to preprocess a source file
+src/Shader/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.i
+.PHONY : src/Shader/Shader.cpp.i
+
+src/Shader/Shader.s: src/Shader/Shader.cpp.s
+.PHONY : src/Shader/Shader.s
+
+# target to generate assembly for a file
+src/Shader/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.s
+.PHONY : src/Shader/Shader.cpp.s
 
 src/Window/Window.o: src/Window/Window.cpp.o
 .PHONY : src/Window/Window.o
@@ -204,9 +300,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cubobezier"
+	@echo "... src/Camera/Camera.o"
+	@echo "... src/Camera/Camera.i"
+	@echo "... src/Camera/Camera.s"
+	@echo "... src/File/File.o"
+	@echo "... src/File/File.i"
+	@echo "... src/File/File.s"
+	@echo "... src/ObjLoader/objloader.o"
+	@echo "... src/ObjLoader/objloader.i"
+	@echo "... src/ObjLoader/objloader.s"
 	@echo "... src/Object/Object.o"
 	@echo "... src/Object/Object.i"
 	@echo "... src/Object/Object.s"
+	@echo "... src/Shader/Shader.o"
+	@echo "... src/Shader/Shader.i"
+	@echo "... src/Shader/Shader.s"
 	@echo "... src/Window/Window.o"
 	@echo "... src/Window/Window.i"
 	@echo "... src/Window/Window.s"

@@ -69,10 +69,24 @@ include CMakeFiles/Cubobezier.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Cubobezier.dir/flags.make
 
+CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o: src/Camera/Camera.cpp
+CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o -MF CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o -c /home/egely1337/cubobezier/src/Camera/Camera.cpp
+
+CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/Camera/Camera.cpp > CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/Camera/Camera.cpp -o CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.s
+
 CMakeFiles/Cubobezier.dir/src/File/File.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/File/File.cpp.o: src/File/File.cpp
 CMakeFiles/Cubobezier.dir/src/File/File.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cubobezier.dir/src/File/File.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cubobezier.dir/src/File/File.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/File/File.cpp.o -MF CMakeFiles/Cubobezier.dir/src/File/File.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/File/File.cpp.o -c /home/egely1337/cubobezier/src/File/File.cpp
 
 CMakeFiles/Cubobezier.dir/src/File/File.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/Cubobezier.dir/src/File/File.cpp.s: cmake_force
 CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o: src/ObjLoader/objloader.cpp
 CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o -MF CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o -c /home/egely1337/cubobezier/src/ObjLoader/objloader.cpp
 
 CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.s: cmake_force
 CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o: src/Object/Object.cpp
 CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o -MF CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o -c /home/egely1337/cubobezier/src/Object/Object.cpp
 
 CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.s: cmake_force
 CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o: src/Shader/Shader.cpp
 CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o -MF CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o -c /home/egely1337/cubobezier/src/Shader/Shader.cpp
 
 CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.s: cmake_force
 CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o: src/Window/Window.cpp
 CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o -MF CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o -c /home/egely1337/cubobezier/src/Window/Window.cpp
 
 CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.s: cmake_force
 CMakeFiles/Cubobezier.dir/src/main.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/Cubobezier.dir/src/main.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Cubobezier.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cubobezier.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/main.cpp.o -MF CMakeFiles/Cubobezier.dir/src/main.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/main.cpp.o -c /home/egely1337/cubobezier/src/main.cpp
 
 CMakeFiles/Cubobezier.dir/src/main.cpp.i: cmake_force
@@ -155,6 +169,7 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Cubobezier
 Cubobezier_OBJECTS = \
+"CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o" \
 "CMakeFiles/Cubobezier.dir/src/File/File.cpp.o" \
 "CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o" \
 "CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o" \
@@ -165,6 +180,7 @@ Cubobezier_OBJECTS = \
 # External object files for target Cubobezier
 Cubobezier_EXTERNAL_OBJECTS =
 
+Cubobezier: CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/File/File.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o
@@ -174,7 +190,7 @@ Cubobezier: CMakeFiles/Cubobezier.dir/src/main.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/build.make
 Cubobezier: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 Cubobezier: CMakeFiles/Cubobezier.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Cubobezier"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Cubobezier"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cubobezier.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

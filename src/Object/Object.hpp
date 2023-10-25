@@ -4,7 +4,7 @@
 #include <iostream>
 
 #include <GLFW/glfw3.h>
-#include <GL/glew.h>
+#include <GL/gl.h>
 #include <glm/glm.hpp>
 #include <ObjLoader/objloader.h>
 

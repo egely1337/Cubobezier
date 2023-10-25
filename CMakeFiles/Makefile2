@@ -81,12 +81,12 @@ clean: CMakeFiles/Cubobezier.dir/clean
 CMakeFiles/Cubobezier.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cubobezier.dir/build.make CMakeFiles/Cubobezier.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Cubobezier"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Cubobezier"
 .PHONY : CMakeFiles/Cubobezier.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Cubobezier.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egely1337/cubobezier/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egely1337/cubobezier/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Cubobezier.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/egely1337/cubobezier/CMakeFiles 0
 .PHONY : CMakeFiles/Cubobezier.dir/rule

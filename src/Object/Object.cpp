@@ -1,50 +1,53 @@
 #include <Object/Object.hpp>
 
 
-GLfloat vertices[] = {
-    0.0f, 0.5f, 0.0f, // Vertex 1
-   -0.5f, -0.5f, 0.0f, // Vertex 2
-    0.5f, -0.5f, 0.0f,  // Vertex 3
-    0.5f, 0.5f // Vertex 4
-};
+const char* ObjectShader = "R(
+    #version 330 core
+    layout (location = 0) in vec objectPosition;
 
+    void main() {
+
+    }
+)";
 
 // Purpose: Object::Object() constructor.
 // Author: @egely1337
 // Date: 10/25/2023
 Object::Object(const char* path){
-    m_cObjLoader.load((char*)path);
-
-    // Change Client State
-
-    for(int i = 0; i < m_cObjLoader.getVertCount(); i += 3) {
-        printf("%f %f %f\n", m_cObjLoader.getPositions()[i], m_cObjLoader.getPositions()[i+1], m_cObjLoader.getPositions()[i+2]);
-    }
-
+    // Load Model
+    this->m_cObjLoader.load((char*)path);
 };
 
 // Purpose: Object::Render this should be called every frame.
 // Author: @egely1337
 // Date: 10/25/2023
 void Object::Render(void)
-{
+{   
     // Reset Matrix
+    glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 
     // Set Client State GL_VERTEX_ARRAY
     glEnableClientState(GL_VERTEX_ARRAY);
 
     // Set Pointers
-    glVertexPointer(m_cObjLoader.getVertCount(), GL_FLOAT, 0, (float*)m_cObjLoader.getPositions());
-    
+    glVertexPointer(8, GL_FLOAT, 0, &cube_vertices[0]);
+
     // Change Position
-    glTranslatef(m_vObjectPosition.x, m_vObjectPosition.y, m_vObjectPosition.z);
-    
+    glTranslatef(
+        this->m_vObjectPosition.x, // X Angle
+        this->m_vObjectPosition.y, // Y Angle
+        this->m_vObjectPosition.z // Z Angle
+    );
+
     // Draw Array
-    glDrawArrays(GL_TRIANGLES, 0, m_cObjLoader.getVertCount());
+    glDrawArrays(GL_TRIANGLES, 0, 8);
 
     // Disable GL_VERTEX_ARRAY Client State
     glDisableClientState(GL_VERTEX_ARRAY);
+
+    // Change Matrix Mode GL_PROJECTION
+    glMatrixMode(GL_PROJECTION);
 }
 
 // Purpose: Returns m_vObjectPosition
@@ -52,7 +55,7 @@ void Object::Render(void)
 // Date: 10/25/2023
 glm::vec3 &Object::GetPosition(void)
 {
-    return m_vObjectPosition;
+    return this->m_vObjectPosition;
 }
 
 // Purpose: Returns m_vObjectRotation
@@ -60,7 +63,7 @@ glm::vec3 &Object::GetPosition(void)
 // Date: 10/25/2023
 glm::vec3 &Object::GetRotation(void)
 {
-    return m_vObjectRotation;
+    return this->m_vObjectRotation;
 }
 
 // Purpose: Sets m_vObjectPosition
@@ -68,7 +71,7 @@ glm::vec3 &Object::GetRotation(void)
 // Date: 10/25/2023
 void Object::SetPosition(glm::vec3 newPosition)
 {
-    m_vObjectPosition = newPosition;
+    this->m_vObjectPosition = newPosition;
 }
 
 // Purpose: Returns m_vObjectRotation
@@ -76,5 +79,5 @@ void Object::SetPosition(glm::vec3 newPosition)
 // Date: 10/25/2023
 void Object::SetRotation(glm::vec3 newRotation)
 {
-    m_vObjectRotation = newRotation;
+    this->m_vObjectRotation = newRotation;
 }

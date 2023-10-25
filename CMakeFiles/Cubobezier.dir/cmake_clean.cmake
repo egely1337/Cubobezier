@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o"
+  "CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o.d"
   "CMakeFiles/Cubobezier.dir/src/File/File.cpp.o"
   "CMakeFiles/Cubobezier.dir/src/File/File.cpp.o.d"
   "CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o"
