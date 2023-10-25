@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o CMakeFiles/Cubobezier.dir/src/main.cpp.o -o Cubobezier  /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lGL 

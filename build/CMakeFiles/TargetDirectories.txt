@@ -1,0 +1,3 @@
+/home/egely1337/cubobezier/build/CMakeFiles/Cubobezier.dir
+/home/egely1337/cubobezier/build/CMakeFiles/edit_cache.dir
+/home/egely1337/cubobezier/build/CMakeFiles/rebuild_cache.dir

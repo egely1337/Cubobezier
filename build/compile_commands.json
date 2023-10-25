@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o -c /home/egely1337/cubobezier/src/Object/Object.cpp",
+  "file": "/home/egely1337/cubobezier/src/Object/Object.cpp"
+},
+{
+  "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o -c /home/egely1337/cubobezier/src/Window/Window.cpp",
+  "file": "/home/egely1337/cubobezier/src/Window/Window.cpp"
+},
+{
+  "directory": "/home/egely1337/cubobezier/build",
+  "command": "/usr/bin/g++  -I/home/egely1337/cubobezier/./src -g -std=gnu++11 -o CMakeFiles/Cubobezier.dir/src/main.cpp.o -c /home/egely1337/cubobezier/src/main.cpp",
+  "file": "/home/egely1337/cubobezier/src/main.cpp"
+}
+]
