@@ -28,6 +28,7 @@ float vertices[] = {
  */
 void Object::Tick(void)
 {   
+    glMatrixMode(GL_MODELVIEW);    
     glLoadIdentity();
 
     glTranslatef(
@@ -36,13 +37,15 @@ void Object::Tick(void)
      this->m_vObjectPosition.z
     );
 
-    glScalef(1.f, 1.f, 1.f);
-
     glBegin(GL_POLYGON);
-    for(int i = 0; i < sizeof(vertices) / sizeof(float); i += 3) {
-        glVertex3f(vertices[i], vertices[i+1], vertices[i+2]);
-    }
-    glEnd();;
+        int b = 0;
+        for(int i = 0; i < this->m_cObjLoader.getVertCount(); i++) {
+            glVertex3f(this->m_cObjLoader.getPositions()[b], this->m_cObjLoader.getPositions()[b+1], this->m_cObjLoader.getPositions()[b+2]);
+            b += 3;
+        }
+    glEnd();
+
+    glMatrixMode(GL_PROJECTION);
 }
 
 /*

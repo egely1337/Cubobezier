@@ -410,8 +410,4 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: \
  /usr/include/glm/gtc/reciprocal.inl /usr/include/glm/gtc/round.hpp \
  /usr/include/glm/gtc/round.inl /usr/include/glm/gtc/type_ptr.hpp \
  /usr/include/glm/gtc/type_ptr.inl /usr/include/glm/gtc/ulp.hpp \
- /usr/include/glm/gtc/ulp.inl \
- /home/egely1337/cubobezier/./src/imgui/imgui.h \
- /home/egely1337/cubobezier/./src/imgui/imconfig.h \
- /home/egely1337/cubobezier/./src/imgui/imgui_impl_glfw.h \
- /home/egely1337/cubobezier/./src/imgui/imgui_impl_opengl3.h
+ /usr/include/glm/gtc/ulp.inl

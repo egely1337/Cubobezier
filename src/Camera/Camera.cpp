@@ -34,7 +34,7 @@ void Camera::Tick(void)
 void Camera::Think(void)
 {
     // Set Camera Direction, Camera Right, Camera Up and View.
-    m_vCameraFront = glm::normalize(m_vCameraDirection);
+    //m_vCameraFront = glm::normalize(m_vCameraDirection);
 
     this->m_vCameraDirection = glm::normalize(this->m_vCameraPosition - this->m_vCameraTarget);
     this->m_vCameraRight = glm::normalize(glm::cross(this->m_vCameraUp, this->m_vCameraDirection));
@@ -59,4 +59,9 @@ glm::mat4& Camera::GetMatrixView() {
 glm::mat4 Camera::GetView(float fov, float width, float height)
 {
     return  glm::perspective(fov, (float)width / (float)height, 0.05f, 1000.f) * this->GetMatrixView();
+}
+
+void Camera::SetPosition(glm::vec3 &newPosition)
+{
+    this->m_vCameraPosition = newPosition;
 }
