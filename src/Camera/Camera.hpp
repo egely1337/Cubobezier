@@ -31,6 +31,8 @@ private:
     glm::vec3 m_vCameraRight = glm::vec3(0.f, 0.f, 0.f);
 
     glm::mat4 view;
+
+    glm::vec3 m_vDirection = glm::vec3(0.f, 0.f, 0.f);
 };
 
 

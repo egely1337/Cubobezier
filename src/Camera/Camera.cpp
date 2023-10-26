@@ -34,6 +34,8 @@ void Camera::Tick(void)
 void Camera::Think(void)
 {
     // Set Camera Direction, Camera Right, Camera Up and View.
+    m_vCameraFront = glm::normalize(m_vCameraDirection);
+
     this->m_vCameraDirection = glm::normalize(this->m_vCameraPosition - this->m_vCameraTarget);
     this->m_vCameraRight = glm::normalize(glm::cross(this->m_vCameraUp, this->m_vCameraDirection));
     this->m_vCameraUp = glm::cross(this->m_vCameraDirection, this->m_vCameraRight);
