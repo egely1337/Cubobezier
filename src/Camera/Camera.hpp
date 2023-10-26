@@ -10,6 +10,8 @@
 #include <GL/gl.h>
 #include <GLFW/glfw3.h>
 
+#include <Window/Window.hpp>
+
 class Camera {
 public:
     Camera();
@@ -20,7 +22,7 @@ public:
     glm::mat4 GetView(float fov, float width, float height);
 
 private:
-    glm::vec3 m_vCameraPosition = glm::vec3(0, 0, 3.0f);
+    glm::vec3 m_vCameraPosition = glm::vec3(0, 0, 6.f);
     glm::vec3 m_vCameraTarget = glm::vec3(0.f, 0.f, 0.f);
     glm::vec3 m_vCameraDirection = glm::vec3(0.f, 0.f, 0.f);
 

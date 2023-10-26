@@ -153,10 +153,108 @@ CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/Window/Window.cpp -o CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.s
 
+CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o: src/imgui/imgui.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.s
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o: src/imgui/imgui_demo.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui_demo.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui_demo.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui_demo.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.s
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o: src/imgui/imgui_draw.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui_draw.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui_draw.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui_draw.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.s
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o: src/imgui/imgui_impl_glfw.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui_impl_glfw.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui_impl_glfw.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.s
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o: src/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui_impl_opengl3.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o: src/imgui/imgui_tables.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui_tables.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui_tables.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui_tables.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.s
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o: src/imgui/imgui_widgets.cpp
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o -MF CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o -c /home/egely1337/cubobezier/src/imgui/imgui_widgets.cpp
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egely1337/cubobezier/src/imgui/imgui_widgets.cpp > CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egely1337/cubobezier/src/imgui/imgui_widgets.cpp -o CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.s
+
 CMakeFiles/Cubobezier.dir/src/main.cpp.o: CMakeFiles/Cubobezier.dir/flags.make
 CMakeFiles/Cubobezier.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/Cubobezier.dir/src/main.cpp.o: CMakeFiles/Cubobezier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cubobezier.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Cubobezier.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cubobezier.dir/src/main.cpp.o -MF CMakeFiles/Cubobezier.dir/src/main.cpp.o.d -o CMakeFiles/Cubobezier.dir/src/main.cpp.o -c /home/egely1337/cubobezier/src/main.cpp
 
 CMakeFiles/Cubobezier.dir/src/main.cpp.i: cmake_force
@@ -175,6 +273,13 @@ Cubobezier_OBJECTS = \
 "CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o" \
 "CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o" \
 "CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o" \
 "CMakeFiles/Cubobezier.dir/src/main.cpp.o"
 
 # External object files for target Cubobezier
@@ -186,11 +291,18 @@ Cubobezier: CMakeFiles/Cubobezier.dir/src/ObjLoader/objloader.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/Object/Object.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/Shader/Shader.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui_demo.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui_draw.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_glfw.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui_impl_opengl3.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui_tables.cpp.o
+Cubobezier: CMakeFiles/Cubobezier.dir/src/imgui/imgui_widgets.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/src/main.cpp.o
 Cubobezier: CMakeFiles/Cubobezier.dir/build.make
 Cubobezier: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 Cubobezier: CMakeFiles/Cubobezier.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Cubobezier"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egely1337/cubobezier/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Cubobezier"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cubobezier.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

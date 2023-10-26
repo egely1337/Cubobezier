@@ -8,18 +8,19 @@
 class Window
 {
 public:
-    Window(const char* WINDOW_NAME, const int width, const int height);
-
-    void CreateWindow(void);
+    void CreateWindow(const char* window_name, int width, int height);
 
     bool IsWindowOpen();
     bool ShouldWindowClose();
 
     bool Update();
 
-    GLFWwindow& GetWindow();
-private:
+    GLFWwindow* GetWindow();
+    static Window& GetInstance();
 
+    uint16_t& GetWindowWidth();
+    uint16_t& GetWindowHeight();
+private:
     /* Window Properties */
     const char* m_cWindowName = 0;
     uint16_t m_iWindowWidth = 800;

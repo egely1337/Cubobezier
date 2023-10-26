@@ -1,17 +1,15 @@
 #include <Window/Window.hpp>
+#include "Window.hpp"
 
 
-Window::Window(const char* WINDOW_NAME, const int width, const int height) : m_cWindowName(WINDOW_NAME),
-m_iWindowHeight(height),
-m_iWindowWidth(width)
+/* 
+ * Purpose: Creates Window (Use this with Window::GetInstance())
+ */
+void Window::CreateWindow(const char *window_name, int width, int height)
 {
-    // Not Implemented
-};
-
-// Purpose: Create a GLFW Window
-// Author: @egely1337
-// Date: 10/23/2023
-void Window::CreateWindow(void) {
+    this->m_iWindowWidth = width;
+    this->m_iWindowHeight = height;
+    this->m_cWindowName = window_name;
 
     // Init GLFW 
     if(!glfwInit()) {
@@ -38,37 +36,50 @@ void Window::CreateWindow(void) {
     this->m_bIsWindowOpen = (this->m_glfwWindow != nullptr) ? true : false;
 }
 
-// Purpose: Get m_bIsWindowOpen private variable.
-// Author: @egely1337
-// Date: 10/23/2023
+/* 
+ * Purpose: Returns static Window& instance
+ */
 bool Window::IsWindowOpen() {
     return this->m_bIsWindowOpen;
 }
 
-// Purpose: Returns should m_glfwWindow close.
-// Author: @egely1337
-// Date: 10/23/2023
+/* 
+ * Purpose: Returns GLFWWindow Should Window Close
+ */
 bool Window::ShouldWindowClose()
 {
     return glfwWindowShouldClose(this->m_glfwWindow);
 }
 
-// Purpose: Returns should m_glfwWindow close.
-// Author: @egely1337
-// Date: 10/23/2023
-bool Window::Update()
-{   
-    glClear(GL_COLOR_BUFFER_BIT);
-
-
-    glfwSwapBuffers(this->m_glfwWindow);
-    glfwPollEvents();
-    return true;
+/*
+ * Purpose: Returns GLFWWindow Should Window Close
+ */
+GLFWwindow* Window::GetWindow() {
+    return this->m_glfwWindow;
 }
 
-// Purpose: Get m_glfwWindow private variable.
-// Author: @egely1337
-// Date: 10/23/2023
-GLFWwindow& Window::GetWindow() {
-    return *this->m_glfwWindow;
+/* 
+ * Purpose: Returns static Window& instance
+ */
+Window &Window::GetInstance()
+{
+    static Window instance;
+
+    return instance;
+}
+
+/*
+ * Purpose: Returns Window Height
+ */
+uint16_t &Window::GetWindowWidth()
+{
+    return this->m_iWindowWidth;
+}
+
+/*
+ * Purpose: Returns Window Height
+ */
+uint16_t &Window::GetWindowHeight()
+{
+    return this->m_iWindowHeight;
 }

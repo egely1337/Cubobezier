@@ -402,4 +402,5 @@ CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o: \
  /usr/include/glm/gtc/ulp.inl /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
  /usr/include/GLFW/glfw3.h \
+ /home/egely1337/cubobezier/./src/Window/Window.hpp \
  /home/egely1337/cubobezier/src/Camera/Camera.hpp

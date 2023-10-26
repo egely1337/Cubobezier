@@ -17,6 +17,8 @@ find_package(glfw3 REQUIRED)
 # Add your project executable
 add_executable(Cubobezier ${SOURCE_FILES})
 
+find_package(glfw3 REQUIRED)
+
 # Link your project with the GLFW library
 target_link_libraries(Cubobezier glfw GL)
 

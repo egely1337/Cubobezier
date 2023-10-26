@@ -12,7 +12,7 @@ class Object {
 public:
     Object(const char* path);
 
-    void Render();
+    void Tick(void);
 
     glm::vec3& GetPosition(void);
     glm::vec3& GetRotation(void);
