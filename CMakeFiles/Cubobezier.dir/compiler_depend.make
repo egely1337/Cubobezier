@@ -488,6 +488,8 @@ CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o: src/Camera/Camera.cpp \
   /usr/include/KHR/khrplatform.h \
   /usr/include/GLFW/glfw3.h \
   src/Window/Window.hpp \
+  /usr/include/GLES3/gl3.h \
+  /usr/include/GLES3/gl3platform.h \
   src/Camera/Camera.hpp
 
 CMakeFiles/Cubobezier.dir/src/File/File.cpp.o: src/File/File.cpp \
@@ -1587,8 +1589,8 @@ CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o: src/Window/Window.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/GL/gl.h \
-  /usr/include/GL/glext.h \
+  /usr/include/GLES3/gl3.h \
+  /usr/include/GLES3/gl3platform.h \
   /usr/include/KHR/khrplatform.h \
   /usr/include/GLFW/glfw3.h \
   src/Window/Window.hpp
@@ -2719,11 +2721,13 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   src/Window/Window.hpp \
-  /usr/include/GL/gl.h \
-  /usr/include/GL/glext.h \
+  /usr/include/GLES3/gl3.h \
+  /usr/include/GLES3/gl3platform.h \
   /usr/include/KHR/khrplatform.h \
   /usr/include/GLFW/glfw3.h \
   src/Object/Object.hpp \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h \
   /usr/include/glm/glm.hpp \
   /usr/include/glm/detail/_fixes.hpp \
   /usr/include/c++/11/cmath \
@@ -3036,11 +3040,7 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/glm/gtc/type_ptr.hpp \
   /usr/include/glm/gtc/type_ptr.inl \
   /usr/include/glm/gtc/ulp.hpp \
-  /usr/include/glm/gtc/ulp.inl \
-  src/imgui/imgui.h \
-  src/imgui/imconfig.h \
-  src/imgui/imgui_impl_glfw.h \
-  src/imgui/imgui_impl_opengl3.h
+  /usr/include/glm/gtc/ulp.inl
 
 
 src/main.cpp:
@@ -3144,6 +3144,8 @@ src/imgui/imgui_demo.cpp:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/rtmintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h:
 
 /usr/include/glm/ext/matrix_int3x3.hpp:
 
@@ -3771,6 +3773,8 @@ src/Camera/Camera.hpp:
 
 /usr/include/time.h:
 
+/usr/include/GLES3/gl3platform.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
@@ -3890,6 +3894,12 @@ src/ObjLoader/objloader.cpp:
 /usr/include/glm/ext/scalar_common.inl:
 
 /usr/include/glm/ext/matrix_float3x3_precision.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/glm/ext/matrix_double3x4.hpp:
 
 /usr/include/glm/detail/type_mat3x4.hpp:
 
@@ -4057,8 +4067,6 @@ src/imgui/imstb_textedit.h:
 
 /usr/include/glm/ext/matrix_uint2x4_sized.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h:
-
 /usr/include/glm/ext/matrix_uint3x2_sized.hpp:
 
 /usr/include/glm/ext/matrix_uint3x3.hpp:
@@ -4211,6 +4219,8 @@ src/imgui/imconfig.h:
 
 src/Window/Window.hpp:
 
+/usr/include/GLES3/gl3.h:
+
 src/File/File.cpp:
 
 /usr/include/glm/detail/type_mat2x2.inl:
@@ -4278,9 +4288,3 @@ src/imgui/imgui_internal.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/glm/ext/matrix_double3x4.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h:

@@ -144,13 +144,13 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/egely1337/cubobezier/./src/Window/Window.hpp /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
- /usr/include/GLFW/glfw3.h \
- /home/egely1337/cubobezier/./src/Object/Object.hpp \
- /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /home/egely1337/cubobezier/./src/Window/Window.hpp \
+ /usr/include/GLES3/gl3.h /usr/include/GLES3/gl3platform.h \
+ /usr/include/KHR/khrplatform.h /usr/include/GLFW/glfw3.h \
+ /home/egely1337/cubobezier/./src/Object/Object.hpp /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h /usr/include/glm/glm.hpp \
+ /usr/include/glm/detail/_fixes.hpp /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \

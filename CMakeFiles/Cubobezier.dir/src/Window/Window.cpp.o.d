@@ -145,7 +145,7 @@ CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/GLES3/gl3.h \
+ /usr/include/GLES3/gl3platform.h /usr/include/KHR/khrplatform.h \
  /usr/include/GLFW/glfw3.h \
  /home/egely1337/cubobezier/src/Window/Window.hpp

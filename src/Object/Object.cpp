@@ -9,20 +9,6 @@ Object::Object(const char* path){
     this->m_cObjLoader.load((char*)path);
 };
 
-float vertices[] = {
-    // Front face
-    -1.0f, -1.0f,  1.0f,
-        1.0f, -1.0f,  1.0f,
-        1.0f,  1.0f,  1.0f,
-    -1.0f,  1.0f,  1.0f,
-    
-    // Back face
-    -1.0f, -1.0f, -1.0f,
-        1.0f, -1.0f, -1.0f,
-        1.0f,  1.0f, -1.0f,
-    -1.0f,  1.0f, -1.0f
-};
-
 /*
  * Purpose: Object Tick
  */

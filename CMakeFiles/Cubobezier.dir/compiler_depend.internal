@@ -489,6 +489,8 @@ CMakeFiles/Cubobezier.dir/src/Camera/Camera.cpp.o
  /usr/include/KHR/khrplatform.h
  /usr/include/GLFW/glfw3.h
  /home/egely1337/cubobezier/src/Window/Window.hpp
+ /usr/include/GLES3/gl3.h
+ /usr/include/GLES3/gl3platform.h
  /home/egely1337/cubobezier/src/Camera/Camera.hpp
 
 CMakeFiles/Cubobezier.dir/src/File/File.cpp.o
@@ -1593,8 +1595,8 @@ CMakeFiles/Cubobezier.dir/src/Window/Window.cpp.o
  /usr/include/c++/11/bits/ostream.tcc
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
- /usr/include/GL/gl.h
- /usr/include/GL/glext.h
+ /usr/include/GLES3/gl3.h
+ /usr/include/GLES3/gl3platform.h
  /usr/include/KHR/khrplatform.h
  /usr/include/GLFW/glfw3.h
  /home/egely1337/cubobezier/src/Window/Window.hpp
@@ -2733,11 +2735,13 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
  /home/egely1337/cubobezier/src/Window/Window.hpp
- /usr/include/GL/gl.h
- /usr/include/GL/glext.h
+ /usr/include/GLES3/gl3.h
+ /usr/include/GLES3/gl3platform.h
  /usr/include/KHR/khrplatform.h
  /usr/include/GLFW/glfw3.h
  /home/egely1337/cubobezier/src/Object/Object.hpp
+ /usr/include/GL/gl.h
+ /usr/include/GL/glext.h
  /usr/include/glm/glm.hpp
  /usr/include/glm/detail/_fixes.hpp
  /usr/include/c++/11/cmath
@@ -3051,8 +3055,4 @@ CMakeFiles/Cubobezier.dir/src/main.cpp.o
  /usr/include/glm/gtc/type_ptr.inl
  /usr/include/glm/gtc/ulp.hpp
  /usr/include/glm/gtc/ulp.inl
- /home/egely1337/cubobezier/src/imgui/imgui.h
- /home/egely1337/cubobezier/src/imgui/imconfig.h
- /home/egely1337/cubobezier/src/imgui/imgui_impl_glfw.h
- /home/egely1337/cubobezier/src/imgui/imgui_impl_opengl3.h
 

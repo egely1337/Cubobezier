@@ -2,7 +2,7 @@
 #define WINDOW_HPP
 
 #include <iostream>
-#include <GL/gl.h>
+#include <GLES3/gl3.h>
 #include <GLFW/glfw3.h>
 
 class Window

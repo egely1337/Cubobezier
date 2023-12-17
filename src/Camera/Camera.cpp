@@ -18,8 +18,6 @@ void Camera::Tick(void)
     float x = cos(glfwGetTime()) * 5;
     float z = sin(glfwGetTime()) * 5;
 
-    this->m_vCameraPosition = glm::vec3(x, 0, 5);
-
     glMatrixMode(GL_PROJECTION);
     glScissor(0, 0, 800, 600);
     glViewport(0, 0, 800, 600);
